@@ -1,0 +1,20 @@
+{
+  "name": "whykeepus-workshop-starter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "start:mock": "node server.mjs --mock",
+    "send": "node send.mjs",
+    "test": "node --test"
+  },
+  "description": "Your first human signal: a beginner Node.js + Express backend workshop",
+  "license": "MIT"
+}
